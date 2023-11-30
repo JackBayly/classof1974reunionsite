@@ -56,8 +56,15 @@
   Todos: fix active class (when you click on a photo, carousel in modal reverts to first slide) 
  *solution: added data-slide-to and data-target to imgs
 -->
-    <section>
+    <section class="gallery-section">
         <h1 class="text-center">Photo Gallery</h1>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+      
         <div class="container">
             <div class="row d-flex flex-wrap align-items-center" data-toggle="modal" data-target="#lightbox">
                 <div class="col-12 col-md-6 col-lg-3">
