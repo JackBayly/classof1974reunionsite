@@ -1,0 +1,32 @@
+.sections-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3em;
+  }
+.cruise-info {
+    font-size: 1.6rem !important;
+}
+.tag-width {
+    width: 50em;
+}
+.li-width {
+    width: 20em !important
+}
+.cruise-prices {
+    margin-bottom: 5em;
+}
+@media only screen and (max-width: 768px) {
+    .sections-container {
+        margin-top: 6em;
+          padding: 20px;
+          display:block;
+      }
+      .tag-width{
+        width: 100%
+      }
+      .cruise-info {
+        font-size: 1.2rem !important;
+      }
+}

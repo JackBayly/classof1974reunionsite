@@ -47,3 +47,10 @@ body {
 .gallery-section {
   margin-top: 3rem;
 }
+.dropdown-bcg {
+  background-color: #2c3e50 !important;
+
+}
+.font-weight {
+  font-weight: 700 !important;
+}
