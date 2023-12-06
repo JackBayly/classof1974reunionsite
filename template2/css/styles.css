@@ -58,6 +58,24 @@ body {
   text-align: left;
   background-color: #fff; }
 
+.white {
+  color: white !important;
+}
+  .nav-item .dropdown-menu {
+    display: none;
+  }
+  .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+
+#contact {
+  background-color: grey;
+}
+.bold {
+ font-weight: bold;
+}
+
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
 
@@ -7256,7 +7274,7 @@ h3 {
     padding-bottom: 1.5rem;
     transition: padding-top 0.3s, padding-bottom 0.3s; }
     #mainNav .navbar-brand {
-      font-size: 1.75em;
+      font-size: 1em;
       transition: font-size 0.3s; }
     #mainNav .navbar-nav {
       margin-top: 0; }
@@ -7270,7 +7288,7 @@ h3 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem; }
     #mainNav.navbar-shrink .navbar-brand {
-      font-size: 1.5em; } }
+      font-size: 1em; } }
 
       @media only screen and (max-width: 600px) {
         .navbar-brand{

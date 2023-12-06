@@ -1,0 +1,45 @@
+\    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    .accommodations-section {
+      margin-top: 30px;
+      
+    padding: 30px;
+    }
+    h1 {
+        text-align: center;
+    }
+
+    .card {
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 20rem;
+    }
+
+    .card-body {
+      padding: 20px;
+    }
+    .card-align {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+    }
+    h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    .card p:last-child {
+      margin-bottom: 0;
+    }
+  
