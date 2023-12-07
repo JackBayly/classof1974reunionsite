@@ -7322,7 +7322,31 @@ h3 {
 .profile-pic {
   height: 40vh;
 }
-
+.library-pic {
+  margin-top:3em; 
+  height: 25em;
+  border-radius: 5px;
+}
+.fish-market-pic {
+  margin-top:3em; 
+  height: 25em;
+  border-radius: 5px;
+  align-self: center;
+}
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+  
+}
+@media only screen and (max-width: 800px) {
+ .fish-market-pic {
+  max-height: 13em;
+ }
+ .library-pic {
+  max-height: 13em;
+ }
+}
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
